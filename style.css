@@ -48,7 +48,7 @@ body {
 }
 
 .search-container button {
-    background-color:#CE7870;
+    background-color:#E89897;
     color: white;
     border: none;
     border-radius: 0.8rem;
@@ -56,7 +56,7 @@ body {
 }
 
 .search-container button:hover {
-    background-color: #ecbcb0;
+    background-color: #FFB284;
 }
 
 .header .profile-container {
@@ -65,12 +65,6 @@ body {
     gap: 1rem;
     margin-right: 25px;
     font-size: 1rem;
-}
-
-.profile-container img {
-    width: 24px;
-    height: auto;
-    border-radius: 2rem;
 }
 
 .profile-container .profile-pic {
@@ -117,7 +111,7 @@ body {
 }
 
 .btns-container button {
-    background-color:#CE7870;
+    background-color:#E89897;
     color: white;
     border: none;
     border-radius: 0.8rem;
@@ -125,13 +119,13 @@ body {
 }
 
 .btns-container button:hover {
-    background-color: #ecbcb0;
+    background-color: #FFB284;
 }
 
 .sidebar {
     grid-area: sidebar;
     padding: 2rem;
-    background-color: #CE7870;
+    background-color: #E89897;
 }
 
 .sidebar h2 {
@@ -162,7 +156,7 @@ body {
 }
 
 .nav a:hover {
-    color: #ecbcb0;
+    color: #FFB284;
 }
 
 .nav li {
@@ -175,12 +169,13 @@ main {
     padding: 2rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
     gap: 2rem;
     grid-template-areas:
         'projects announcements'
         'projects trending';
     overflow: auto;
-    background-color: #becbcf;
+    background-color: #849D8A;
 }
 
 main h3 {
@@ -211,7 +206,9 @@ main .projects {
     overflow: scroll;
     font-size: 0.9rem;
     background-color: white;
+    border-left: 10px solid #E89897;
 }
+
 
 .projects .card h5 {
     font-size: 1rem;
@@ -237,8 +234,8 @@ button {
 .announcements {
     grid-area: announcements;
     display: flex;
+    height: 100%;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .announcements-container {
@@ -285,6 +282,11 @@ hr {
 
 .name {
     color: rgb(82, 81, 81);
+    font-size: 0.7rem;
+}
+
+.username {
+    font-size: 0.8rem;
 }
 
 
