@@ -70,6 +70,7 @@ body {
 .profile-container .profile-pic {
     width: 35px;
     height: auto;
+    border-radius: 1rem;
 }
 
 .bottom-header {
@@ -289,6 +290,15 @@ hr {
 
 .username {
     font-size: 0.8rem;
+}
+
+.friend-photos {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
 }
 
 
